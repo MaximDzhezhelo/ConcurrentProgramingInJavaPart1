@@ -15,7 +15,7 @@ public interface SequenceGenerator {
 
     /**
      * Get the next integer in this sequence.
-     * 
+     *
      * @return Next int in the sequence.
      */
     public int next();

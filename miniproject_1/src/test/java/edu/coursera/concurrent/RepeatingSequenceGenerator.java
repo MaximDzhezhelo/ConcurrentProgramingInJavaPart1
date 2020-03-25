@@ -6,7 +6,7 @@ public class RepeatingSequenceGenerator implements SequenceGenerator {
     private final int sequenceLen;
 
     public RepeatingSequenceGenerator(final int setSequenceLen,
-            final int periodicity) {
+                                      final int periodicity) {
         this.subsequence = new int[periodicity];
         this.iter = 0;
         this.sequenceLen = setSequenceLen;

@@ -1,11 +1,11 @@
 package edu.coursera.concurrent;
 
 /**
- *  Class SyncList implements a thread-safe sorted list data structure that
- *  supports contains(), add() and remove() methods.
- *
- *  Thread safety is guaranteed by declaring each of the methods to be
- *  synchronized.
+ * Class SyncList implements a thread-safe sorted list data structure that
+ * supports contains(), add() and remove() methods.
+ * <p>
+ * Thread safety is guaranteed by declaring each of the methods to be
+ * synchronized.
  */
 public final class SyncList extends ListSet {
     /**

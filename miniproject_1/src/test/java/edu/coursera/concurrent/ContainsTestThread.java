@@ -1,7 +1,5 @@
 package edu.coursera.concurrent;
 
-import java.util.Random;
-
 /**
  * A Runnable class used to test the performance of each concurrent ListSet
  * implementation. This thread simply hits the list with a large number of

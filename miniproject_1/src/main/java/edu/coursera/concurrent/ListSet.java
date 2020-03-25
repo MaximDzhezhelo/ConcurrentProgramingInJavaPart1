@@ -45,7 +45,7 @@ public abstract class ListSet {
      *
      * @param o The integer to remove.
      * @return true if this value is found in the list and successfully removed,
-     *         false otherwise
+     * false otherwise
      */
     abstract boolean remove(Integer o);
 
